@@ -45,22 +45,22 @@ class Account:
 
 
 if __name__ == '__main__':
-    tim = Account("Tim", 0)
-    tim.show_balance()
-
-    tim.deposit(1000)
+    # tim = Account("Tim", 0)
     # tim.show_balance()
-    tim.withdraw(500)
-    # tim.show_balance()
+    #
+    # tim.deposit(1000)
+    # # tim.show_balance()
+    # tim.withdraw(500)
+    # # tim.show_balance()
+    #
+    # tim.withdraw(2000)
+    #
+    # tim.show_transactions()
 
-    tim.withdraw(2000)
-
-    tim.show_transactions()
-
-    steph = Account("Steph", 800)
-    steph.__balance = 200
-    steph.deposit(100)
-    steph.withdraw(200)
+    steph = Account("Steph", 50)
+    steph.__balance = 20
+    steph.deposit(30)
+    steph.withdraw(40)
     steph.show_transactions()
     steph.show_balance()
     print(steph.__dict__)
