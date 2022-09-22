@@ -15,3 +15,7 @@ class Enemy:
 
     def __str__(self):
         return "Name: {0.name}, Hit points: {0.hit_points}, Lives:{0.lives}".format(self)
+
+
+class Troll(Enemy):
+    pass
