@@ -27,3 +27,7 @@ print(tim)
 
 tim.level = 3
 print(tim)
+
+print()
+tim.score = 25
+print(tim)
